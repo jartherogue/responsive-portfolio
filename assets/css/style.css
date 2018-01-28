@@ -1,0 +1,240 @@
+body {
+    font-family: sans-serif ;
+}
+.container {
+    width: 960px ;
+    margin: 0 auto ;  
+}
+.container.content {
+    background: white ; 
+}
+.header {
+background-color: #ffffff ; 
+border-bottom: solid 2px #cccccc ; 
+position:  relative ;
+}
+.contentarea {
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/hypnotize.png")
+}
+.hname {
+    background-color: teal ; 
+    float:  left ;
+} 
+.hname h1 {
+    color: white ; 
+    font-size: 24px ; 
+    padding: 40px ; 
+}
+.headerlinks {
+    list-style-type: none ; 
+    float: right ; 
+}
+.headerlinks li {
+    float: left;
+    padding: 40px 10px ; 
+    color: #777777 ; 
+}
+.contactbox {
+    padding: 40px 0px;
+    width: 650px;
+    float: left;
+}
+.contactme {
+    border-bottom: solid 2px teal;
+    color: teal;
+    font-size: 32px;
+}
+.nameemail {
+    width: 650px ;
+}
+.messagebox {
+    width: 650px ; 
+    height: 300px
+}
+.sidebar {
+
+}
+#profilelinks {
+    float: right;
+    width: 270px;
+    height: 185px;
+    padding: 30px 0px;
+}
+#connect {
+    color: teal;
+    margin-top: 9px;
+    border-bottom: solid 2px teal;
+    text-align: center;
+    font-size: 32px;
+}
+#linkslist {
+    list-style: none;
+    display: inline-block;
+    padding: 24px 0px 0px 60px;
+}
+li {
+    float: left ; 
+}
+.submitbutton {
+    background-color: teal;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+p {
+    font-family: sans-serif ; 
+    font-size: 20px ; 
+    color: #777777 ; 
+    padding: 10px 0px ; 
+}
+.golf {
+    height: 500px ; 
+    width: 400px ; 
+
+}
+.contactbox div {
+    float: left ; 
+    padding: 30px ; 
+}
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    border-top: solid 10px teal;
+    margin: 0 auto;
+    padding: 40px
+}
+.clearfix {
+    clear: both ; 
+}
+.place1 {
+    position: relative ;
+}
+.place2 {
+    position: relative ; 
+}
+.place3 {
+    position: relative ; 
+}
+.place4 {
+    position: relative ; 
+}
+.place5{
+    position: relative ; 
+}
+.hangman {
+    position: absolute ; 
+    bottom: 0 ; 
+    background-color: teal ; 
+    color: white ; 
+    }
+    @media only screen and (min-width: 769px) and (max-width: 981px){
+        body {
+            height: 100% ;  
+        }
+        .contactbox {
+            width: 50% ; 
+        }
+        p {
+            word-wrap: break-word ; 
+            font-size: 12px ; 
+            color: black ;
+        }
+        .golf {
+            height: 250px ; 
+            width: 200px ; 
+        }
+        #profilelinks {
+            width: 50% ; 
+        }
+    }
+    @media only screen and (min-width: 641px) and (max-width: 768px) {
+        html {
+            height: 100% ; 
+        }
+        .hname {
+            float: left ; 
+            width: 50% ; 
+        }
+        .contactme {
+            float: none ; 
+            width: 100% ; 
+        }
+        .golf {
+            float: left; 
+            height: 250px ; 
+            width: 200px ; 
+        }
+        p {
+            word-wrap: break-word ; 
+            font-size: 16px ; 
+            color: black ; 
+            width: 50% ; 
+            overflow: hidden ; 
+        }
+        .contactbox {
+            width: 100% ; 
+            float: none ; 
+        }
+        #profilelinks {
+            width:100% ; 
+            text-align: left ; 
+        }
+        #connect {
+            text-align: left ; 
+            float: none ; 
+        }
+    }
+    @media only screen and (min-width: 375px) and (max-width: 640px) {
+        html, body {
+            height: 100% ; 
+            width: 100% ; 
+        }
+        header {
+            width: 100% ; 
+        }
+        .headerlinks {
+            float: none ; 
+            padding: 0px ; 
+            margin: auto ; 
+            overflow: hidden ; 
+        }
+        .hname {
+            float: none ;
+            width: 100% ; 
+         }
+        .golf {
+            float: left; 
+            height: 250px ; 
+            width: 200px ; 
+        }
+        p {
+            word-wrap: break-word ; 
+            font-size: 16px ; 
+            color: black ; 
+            width: 50% ; 
+            overflow: hidden ; 
+        }
+        .contactbox {
+            width: 100% ; 
+            float: none ; 
+        }
+        #profilelinks {
+            width:100% ; 
+            text-align: left ; 
+        }
+        #connect {
+            text-align: left ; 
+            float: none ; 
+        }
+        .contactbox div {
+            float:none ; 
+            width: 100% ; 
+        }
+    }
